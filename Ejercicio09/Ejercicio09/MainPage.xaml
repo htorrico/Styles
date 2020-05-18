@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Ejercicio09"
+             x:Class="Ejercicio09.MainPage">
+    <ScrollView>
+        <StackLayout>
+       
+            <Button x:Name="Item1" Text="Explicit"/>
+            <Button x:Name="Item2" Text="Explicit Code"/>
+            <Button x:Name="Item3" Text="Explicit Control"/>
+            <Button x:Name="Item4" Text="Explicit Control Code"/>
+            <Button x:Name="Item5" Text="Implicit"/>
+            <Button x:Name="Item6" Text="Implicit Code"/>
+            <Button x:Name="Item7" Text="Implicit Control"/>
+            
+            <Button x:Name="Item9" Text="Global"/>
+            <Button x:Name="Item10" Text="Global Code"/>
+            <Button x:Name="Item11" Text="Inheritance"/>
+            <Button x:Name="Item12" Text="Inheritance Code"/>
+            <Button x:Name="Item13" Text="Dynamic"/>
+            <Button x:Name="Item14" Text="Dynamic Code"/>
+            <Button x:Name="Item15" Text="Class"/>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
