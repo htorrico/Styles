@@ -7,7 +7,7 @@ namespace Ejercicio09
 {
     public class CustomEntry : Entry
     {
-        CustomEntry()
+        public CustomEntry()
         {
             this.Text = "Texto de prueba";
             
